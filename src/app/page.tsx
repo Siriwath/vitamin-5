@@ -1,8 +1,18 @@
-import Image from "next/image";
-import styles from "./page.module.css";
 
-export default function Home() {
+export default function HomePage() {
   return (
+  
+  <h1 className='homepagetag'>Home Page</h1>
+
+
+
+
+
+
+
+
+
 
   );
 }
+

@@ -1,0 +1,35 @@
+body {
+    margin: 0;
+}
+
+.module {
+    background-color: #333333;
+    height: 100px;               /* fixed height */
+    width: 100%;
+    display: flex;               /* enable flexbox */
+    justify-content: space-between;   /* push menu to right */
+    align-items: center;         /* vertical center */
+    padding: 0 20px;             /* optional horizontal padding */
+    box-sizing: border-box;
+}
+
+.module h1 {
+    margin:0 px;
+    color: white;
+}
+
+.menu {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;               /* horizontal items */
+    color: white;
+}
+
+.menu li {
+    margin-left: 20px;           /* spacing between items */
+}
+
+.menu a{
+    color: white;
+}
